@@ -2,10 +2,18 @@ body{
     font-family: monospace;
     font-size: 110%;
     background-color: seashell;
+    display: flex;
+    flex-direction: column;
 }
 
+.content{
+    margin: 20px;
+  padding: 50px;
+}
 header{
     text-align: center;
+    justify-content: center;
+    margin: 0px;
 }
 
 #heading{
@@ -46,4 +54,10 @@ h2{
     font-size: 30px;
     margin: 20px;
     padding: 30px;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    overflow: unset;
 }
