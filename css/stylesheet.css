@@ -1,0 +1,27 @@
+body{
+    font-family: monospace;
+    font-size: 110%;
+    background-color: seashell;
+}
+
+header{
+    text-align: center;
+}
+
+#heading{
+    background-color: lightpink;
+    font-size: 110%;
+    font-family: monospace ;
+    color: rgb(247, 105, 90);
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(252, 225, 230);
+    color: salmon;
+}
+
+#sidebar{
+    width: 30%;
+    background-color: rgb(250, 199, 179);
+}
