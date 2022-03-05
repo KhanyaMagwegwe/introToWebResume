@@ -1,6 +1,6 @@
 body{
     font-family: monospace;
-    font-size: 110%;
+    font-size: 147%;
     background-color: seashell;
     display: flex;
     flex-direction: column;
@@ -14,6 +14,7 @@ header{
     text-align: center;
     justify-content: center;
     margin: 0px;
+    padding: 30px
 }
 
 #heading{
@@ -24,9 +25,9 @@ header{
 }
 
 #profilePicture{
-    width: 20%;
-    height: 20%;
-    border-radius: 80%;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
     border-style: solid;
     border-width: 5px;
     border-color: hotpink;
@@ -60,4 +61,17 @@ h2{
     display: flex;
     flex-direction: row;
     overflow: unset;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+}
+
+a:link {
+    color: hotpink;
+}
+
+a:visited {
+    color: palevioletred;
 }
